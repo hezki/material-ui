@@ -8,7 +8,8 @@ export const styles = theme => ({
     color: theme.palette.text.secondary,
     fontFamily: theme.typography.fontFamily,
     fontSize: theme.typography.pxToRem(12),
-    textAlign: 'left',
+    //rtl not use
+    //textAlign: 'left',
     marginTop: theme.spacing.unit,
     lineHeight: '1em',
     minHeight: '1em',

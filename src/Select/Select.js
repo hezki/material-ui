@@ -17,7 +17,7 @@ export const styles = theme => ({
     // When interacting quickly, the text can end up selected.
     // Native select can't be selected either.
     userSelect: 'none',
-    paddingRight: theme.spacing.unit * 4,
+    //rtl not use : paddingRight: theme.spacing.unit * 4,
     width: `calc(100% - ${theme.spacing.unit * 4}px)`,
     minWidth: theme.spacing.unit * 2, // So it doesn't collapse.
     cursor: 'pointer',
@@ -52,7 +52,7 @@ export const styles = theme => ({
     // We use a position absolute over a flexbox in order to forward the pointer events
     // to the input.
     position: 'absolute',
-    right: 0,
+    left: 0,
     top: 'calc(50% - 12px)', // Center vertically
     color: theme.palette.action.active,
     'pointer-events': 'none', // Don't block pointer events on the select under the icon.

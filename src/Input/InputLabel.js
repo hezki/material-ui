@@ -6,11 +6,11 @@ import { FormLabel } from '../Form';
 
 export const styles = theme => ({
   root: {
-    transformOrigin: 'top left',
+    transformOrigin: 'top right',
   },
   formControl: {
     position: 'absolute',
-    left: 0,
+    right: 0,
     top: 0,
     // slight alteration to spec spacing to match visual spec result
     transform: `translate(0, ${theme.spacing.unit * 3}px) scale(1)`,
@@ -21,7 +21,7 @@ export const styles = theme => ({
   },
   shrink: {
     transform: 'translate(0, 1.5px) scale(0.75)',
-    transformOrigin: 'top left',
+    transformOrigin: 'top right',
   },
   animated: {
     transition: theme.transitions.create('transform', {
